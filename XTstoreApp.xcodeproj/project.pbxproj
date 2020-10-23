@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5BF75CE725432A8D009FF209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF75CE625432A8D009FF209 /* AppDelegate.swift */; };
 		5BF75CE925432A8D009FF209 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF75CE825432A8D009FF209 /* SceneDelegate.swift */; };
-		5BF75CEB25432A8D009FF209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF75CEA25432A8D009FF209 /* ViewController.swift */; };
 		5BF75CEE25432A8D009FF209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF75CEC25432A8D009FF209 /* Main.storyboard */; };
 		5BF75CF025432A96009FF209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF75CEF25432A96009FF209 /* Assets.xcassets */; };
 		5BF75CF325432A96009FF209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF75CF125432A96009FF209 /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 		5BF75CE325432A8D009FF209 /* XTstoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTstoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF75CE625432A8D009FF209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BF75CE825432A8D009FF209 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BF75CEA25432A8D009FF209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BF75CED25432A8D009FF209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BF75CEF25432A96009FF209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF75CF225432A96009FF209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,13 +97,12 @@
 		5BF75CE525432A8D009FF209 /* XTstoreApp */ = {
 			isa = PBXGroup;
 			children = (
-				5BF75CE625432A8D009FF209 /* AppDelegate.swift */,
-				5BF75CE825432A8D009FF209 /* SceneDelegate.swift */,
-				5BF75CEA25432A8D009FF209 /* ViewController.swift */,
-				5BF75CEC25432A8D009FF209 /* Main.storyboard */,
-				5BF75CEF25432A96009FF209 /* Assets.xcassets */,
-				5BF75CF125432A96009FF209 /* LaunchScreen.storyboard */,
-				5BF75CF425432A96009FF209 /* Info.plist */,
+				5BF75D2125432B3D009FF209 /* Board */,
+				5BF75D2025432B36009FF209 /* Image */,
+				5BF75D1F25432B27009FF209 /* Config */,
+				5BF75D1E25432B1A009FF209 /* ViewModel */,
+				5BF75D1D25432B14009FF209 /* View */,
+				5BF75D1C25432B0D009FF209 /* Model */,
 			);
 			path = XTstoreApp;
 			sourceTree = "<group>";
@@ -126,6 +123,54 @@
 				5BF75D0A25432A97009FF209 /* Info.plist */,
 			);
 			path = XTstoreAppUITests;
+			sourceTree = "<group>";
+		};
+		5BF75D1C25432B0D009FF209 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BF75D1D25432B14009FF209 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BF75D1E25432B1A009FF209 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BF75D1F25432B27009FF209 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5BF75CE625432A8D009FF209 /* AppDelegate.swift */,
+				5BF75CE825432A8D009FF209 /* SceneDelegate.swift */,
+				5BF75CF425432A96009FF209 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		5BF75D2025432B36009FF209 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				5BF75CEF25432A96009FF209 /* Assets.xcassets */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		5BF75D2125432B3D009FF209 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				5BF75CF125432A96009FF209 /* LaunchScreen.storyboard */,
+				5BF75CEC25432A8D009FF209 /* Main.storyboard */,
+			);
+			path = Board;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF75CEB25432A8D009FF209 /* ViewController.swift in Sources */,
 				5BF75CE725432A8D009FF209 /* AppDelegate.swift in Sources */,
 				5BF75CE925432A8D009FF209 /* SceneDelegate.swift in Sources */,
 			);
@@ -438,7 +482,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9RXFTNQ3L;
-				INFOPLIST_FILE = XTstoreApp/Info.plist;
+				INFOPLIST_FILE = XTstoreApp/Config/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +501,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9RXFTNQ3L;
-				INFOPLIST_FILE = XTstoreApp/Info.plist;
+				INFOPLIST_FILE = XTstoreApp/Config/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
