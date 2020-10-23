@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5B243CEC25432D5D004B5631 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B243CEB25432D5D004B5631 /* LoginModel.swift */; };
 		5B243CF425432DEF004B5631 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B243CF325432DEF004B5631 /* LoginView.swift */; };
 		5B243CF925432DFF004B5631 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B243CF825432DFF004B5631 /* LoginViewModel.swift */; };
+		5B51FBE9254332A50008AD97 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51FBE8254332A50008AD97 /* APIService.swift */; };
+		5BC05BEA2543354F003BEC73 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC05BE92543354F003BEC73 /* BaseURL.swift */; };
 		5BF75CE725432A8D009FF209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF75CE625432A8D009FF209 /* AppDelegate.swift */; };
 		5BF75CE925432A8D009FF209 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF75CE825432A8D009FF209 /* SceneDelegate.swift */; };
 		5BF75CEE25432A8D009FF209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF75CEC25432A8D009FF209 /* Main.storyboard */; };
@@ -17,6 +19,7 @@
 		5BF75CF325432A96009FF209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF75CF125432A96009FF209 /* LaunchScreen.storyboard */; };
 		5BF75CFE25432A97009FF209 /* XTstoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF75CFD25432A97009FF209 /* XTstoreAppTests.swift */; };
 		5BF75D0925432A97009FF209 /* XTstoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF75D0825432A97009FF209 /* XTstoreAppUITests.swift */; };
+		E907309A9E11F44FB048F9E9 /* Pods_XTstoreApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF804278DB2BAB1501EB225F /* Pods_XTstoreApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BF3EECAD1961DBC8F365382 /* Pods-XTstoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTstoreApp.debug.xcconfig"; path = "Target Support Files/Pods-XTstoreApp/Pods-XTstoreApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5B243CEB25432D5D004B5631 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		5B243CF325432DEF004B5631 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5B243CF825432DFF004B5631 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5B51FBE8254332A50008AD97 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		5BC05BE92543354F003BEC73 /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
 		5BF75CE325432A8D009FF209 /* XTstoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTstoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF75CE625432A8D009FF209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BF75CE825432A8D009FF209 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 		5BF75D0425432A97009FF209 /* XTstoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTstoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF75D0825432A97009FF209 /* XTstoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTstoreAppUITests.swift; sourceTree = "<group>"; };
 		5BF75D0A25432A97009FF209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7E51A92DBE822ADF2CD650 /* Pods-XTstoreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTstoreApp.release.xcconfig"; path = "Target Support Files/Pods-XTstoreApp/Pods-XTstoreApp.release.xcconfig"; sourceTree = "<group>"; };
+		FF804278DB2BAB1501EB225F /* Pods_XTstoreApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTstoreApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E907309A9E11F44FB048F9E9 /* Pods_XTstoreApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B51FBE7254331F00008AD97 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5B51FBE8254332A50008AD97 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5BC05BE82543352B003BEC73 /* BaseUrl */ = {
+			isa = PBXGroup;
+			children = (
+				5BC05BE92543354F003BEC73 /* BaseURL.swift */,
+			);
+			path = BaseUrl;
+			sourceTree = "<group>";
+		};
 		5BF75CDA25432A8D009FF209 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +112,8 @@
 				5BF75CFC25432A97009FF209 /* XTstoreAppTests */,
 				5BF75D0725432A97009FF209 /* XTstoreAppUITests */,
 				5BF75CE425432A8D009FF209 /* Products */,
+				DA40476A61357D8726706337 /* Pods */,
+				B326410939297E792830E6BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +130,8 @@
 		5BF75CE525432A8D009FF209 /* XTstoreApp */ = {
 			isa = PBXGroup;
 			children = (
+				5BC05BE82543352B003BEC73 /* BaseUrl */,
+				5B51FBE7254331F00008AD97 /* Service */,
 				5BF75D1C25432B0D009FF209 /* Model */,
 				5BF75D1D25432B14009FF209 /* View */,
 				5BF75D1E25432B1A009FF209 /* ViewModel */,
@@ -182,6 +211,23 @@
 			path = Board;
 			sourceTree = "<group>";
 		};
+		B326410939297E792830E6BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF804278DB2BAB1501EB225F /* Pods_XTstoreApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA40476A61357D8726706337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3EECAD1961DBC8F365382 /* Pods-XTstoreApp.debug.xcconfig */,
+				EA7E51A92DBE822ADF2CD650 /* Pods-XTstoreApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BF75D0D25432A97009FF209 /* Build configuration list for PBXNativeTarget "XTstoreApp" */;
 			buildPhases = (
+				34ACC11BC7A3D568F70D20FC /* [CP] Check Pods Manifest.lock */,
 				5BF75CDF25432A8D009FF209 /* Sources */,
 				5BF75CE025432A8D009FF209 /* Frameworks */,
 				5BF75CE125432A8D009FF209 /* Resources */,
+				EBD95ABDBF2159078C0FD315 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,6 +355,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34ACC11BC7A3D568F70D20FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XTstoreApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD95ABDBF2159078C0FD315 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XTstoreApp/Pods-XTstoreApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XTstoreApp/Pods-XTstoreApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XTstoreApp/Pods-XTstoreApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BF75CDF25432A8D009FF209 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -314,8 +404,10 @@
 			files = (
 				5BF75CE725432A8D009FF209 /* AppDelegate.swift in Sources */,
 				5B243CEC25432D5D004B5631 /* LoginModel.swift in Sources */,
+				5BC05BEA2543354F003BEC73 /* BaseURL.swift in Sources */,
 				5B243CF425432DEF004B5631 /* LoginView.swift in Sources */,
 				5B243CF925432DFF004B5631 /* LoginViewModel.swift in Sources */,
+				5B51FBE9254332A50008AD97 /* APIService.swift in Sources */,
 				5BF75CE925432A8D009FF209 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +581,7 @@
 		};
 		5BF75D0E25432A97009FF209 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF3EECAD1961DBC8F365382 /* Pods-XTstoreApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -508,6 +601,7 @@
 		};
 		5BF75D0F25432A97009FF209 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7E51A92DBE822ADF2CD650 /* Pods-XTstoreApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
