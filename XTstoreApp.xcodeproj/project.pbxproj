@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5B243CEC25432D5D004B5631 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B243CEB25432D5D004B5631 /* LoginModel.swift */; };
+		5B243CF425432DEF004B5631 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B243CF325432DEF004B5631 /* LoginView.swift */; };
+		5B243CF925432DFF004B5631 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B243CF825432DFF004B5631 /* LoginViewModel.swift */; };
 		5BF75CE725432A8D009FF209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF75CE625432A8D009FF209 /* AppDelegate.swift */; };
 		5BF75CE925432A8D009FF209 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF75CE825432A8D009FF209 /* SceneDelegate.swift */; };
 		5BF75CEE25432A8D009FF209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF75CEC25432A8D009FF209 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		5B243CEB25432D5D004B5631 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		5B243CF325432DEF004B5631 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5B243CF825432DFF004B5631 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		5BF75CE325432A8D009FF209 /* XTstoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTstoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF75CE625432A8D009FF209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BF75CE825432A8D009FF209 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 		5BF75D1D25432B14009FF209 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5B243CF325432DEF004B5631 /* LoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 		5BF75D1E25432B1A009FF209 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5B243CF825432DFF004B5631 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -308,6 +314,8 @@
 			files = (
 				5BF75CE725432A8D009FF209 /* AppDelegate.swift in Sources */,
 				5B243CEC25432D5D004B5631 /* LoginModel.swift in Sources */,
+				5B243CF425432DEF004B5631 /* LoginView.swift in Sources */,
+				5B243CF925432DFF004B5631 /* LoginViewModel.swift in Sources */,
 				5BF75CE925432A8D009FF209 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
